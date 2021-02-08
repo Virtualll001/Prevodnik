@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "WN3PuM1m8GRTpaLt29irBN69GpIi1VPy+iDUxlPIYu8Sm3Jo60VAgtLrtWSUhxeF+Y0w84vysyToLxmROhb9Wg==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\lonet\\source\\repos\\_VIRTUAL\\MenovaKalkulacka\\MenovaKalkulacka.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\lonet\\.nuget\\packages\\microsoft.netcore.app.runtime.win-x64\\3.1.10\\microsoft.netcore.app.runtime.win-x64.3.1.10.nupkg.sha512",
+    "C:\\Users\\lonet\\.nuget\\packages\\microsoft.windowsdesktop.app.runtime.win-x64\\3.1.10\\microsoft.windowsdesktop.app.runtime.win-x64.3.1.10.nupkg.sha512",
+    "C:\\Users\\lonet\\.nuget\\packages\\microsoft.aspnetcore.app.runtime.win-x64\\3.1.10\\microsoft.aspnetcore.app.runtime.win-x64.3.1.10.nupkg.sha512"
+  ],
+  "logs": []
+}

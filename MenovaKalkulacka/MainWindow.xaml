@@ -1,0 +1,50 @@
+﻿<Window x:Class="MenovaKalkulacka.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:MenovaKalkulacka"
+        mc:Ignorable="d"
+        Title="Měnová kalkulačka" Height="300" Width="250" ResizeMode="NoResize" WindowStartupLocation="CenterScreen" WindowStyle="ToolWindow">
+    <Window.Background>
+        <RadialGradientBrush>
+            <GradientStop Color="Black"/>
+            <GradientStop Color="White" Offset="1"/>
+        </RadialGradientBrush>
+    </Window.Background>
+    <Grid>
+        <Grid.Background>
+            <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                <GradientStop Color="Black" Offset="0.226"/>
+                <GradientStop Color="Red" Offset="0.797"/>
+                <GradientStop Color="#FFFDDADA" Offset="1"/>
+            </LinearGradientBrush>
+        </Grid.Background>
+        <Grid Margin="25, 15, 25, 10">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="50"/>
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition />
+                <ColumnDefinition Width="Auto"/>
+            </Grid.ColumnDefinitions>
+            <TextBox Height="30" x:Name="czkTextBox" FontSize="22" TextChanged="czkTextBox_TextChanged"/>
+            <TextBox Height="30" Grid.Row="1" x:Name="eurTextBox" FontSize="22" TextChanged="eurTextBox_TextChanged"/>
+            <TextBlock  Text="CZK" VerticalAlignment="Center" Margin="10, 0, 0, 0" Grid.Column="1" Foreground="White" FontWeight="Bold" FontSize="22"/>
+            <StackPanel Grid.Row="1" VerticalAlignment="Center" Margin="10, 0, 0, 0" Grid.Column="1" Orientation="Horizontal" >
+                <TextBlock Text="EUR" Foreground="White" FontSize="22"/>
+            </StackPanel>
+
+            <TextBox Height="30" Grid.Row="2" x:Name="usdTextBox" FontSize="22" TextChanged="usdTextBox_TextChanged" />
+            <StackPanel Grid.Row="2" VerticalAlignment="Center" Margin="10, 0, 0, 0" Grid.Column="1" Orientation="Horizontal">
+                <TextBlock Text="USD" Foreground="White" FontSize="22"/>
+            </StackPanel>
+
+            <TextBlock x:Name="aktualniTextBlock" HorizontalAlignment="Left" Grid.ColumnSpan="2" Grid.Row="4" Text="" TextWrapping="Wrap" VerticalAlignment="Center" FontSize="12" FontStyle="Italic" />
+
+        </Grid>
+    </Grid>
+</Window>
