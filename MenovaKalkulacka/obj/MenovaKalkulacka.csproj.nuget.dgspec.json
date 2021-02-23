@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\lonet\\source\\repos\\_VIRTUAL\\MenovaKalkulacka\\MenovaKalkulacka.csproj": {}
+    "C:\\Users\\lonet\\source\\repos\\Prevodnik\\MenovaKalkulacka\\MenovaKalkulacka.csproj": {}
   },
   "projects": {
-    "C:\\Users\\lonet\\source\\repos\\_VIRTUAL\\MenovaKalkulacka\\MenovaKalkulacka.csproj": {
+    "C:\\Users\\lonet\\source\\repos\\Prevodnik\\MenovaKalkulacka\\MenovaKalkulacka.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\lonet\\source\\repos\\_VIRTUAL\\MenovaKalkulacka\\MenovaKalkulacka.csproj",
+        "projectUniqueName": "C:\\Users\\lonet\\source\\repos\\Prevodnik\\MenovaKalkulacka\\MenovaKalkulacka.csproj",
         "projectName": "MenovaKalkulacka",
-        "projectPath": "C:\\Users\\lonet\\source\\repos\\_VIRTUAL\\MenovaKalkulacka\\MenovaKalkulacka.csproj",
+        "projectPath": "C:\\Users\\lonet\\source\\repos\\Prevodnik\\MenovaKalkulacka\\MenovaKalkulacka.csproj",
         "packagesPath": "C:\\Users\\lonet\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\lonet\\source\\repos\\_VIRTUAL\\MenovaKalkulacka\\obj\\",
+        "outputPath": "C:\\Users\\lonet\\source\\repos\\Prevodnik\\MenovaKalkulacka\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
